@@ -5,7 +5,7 @@
 Luque Paz D. et al. Blood Advances. in press
 
 The folder contains the clinical and molecular data of the cohort.
-## :question: Questions?
+## :question: Contacts
 For any question about the data, feel free to contact Valérie Ugo (valerie.ugo@chu-angers.fr), Damien Luque Paz (damien.luquepaz@univ-angers.fr), or Maxime Renard for Bioinformatic part (maxime.renard@chu-angers.fr). Code for statistics can be share upon request.
 
 ## :open_file_folder: Data/
