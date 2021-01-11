@@ -9,6 +9,7 @@ Luque Paz D. et al.
 ## :open_file_folder: Data/
 ## Database of all mutations in the cohort
 Data_Variants.csv 
+
 Classification of mutation:
  A=Pathogenic
  B=Likely pathogenic
