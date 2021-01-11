@@ -9,23 +9,18 @@
 # Data/
 ## Database of variant
 Data/Data_Variant_result_479MF.csv
-## Classification of gene category for circos
+## Classification of gene categories for circos
 Groupe_gene.csv
 ## Gene of panel NGS
 List_gene_panel.csv
-## Figure/ 
-Generation of figure description
-## File statistic
-Data generate for statistic
-## Statistic/
-Statistic on figure
-## Code 
- Code to generate data
+## Code for figure of Genomics
+ Code to generate figure for description of the molecular landscape
 # Desciption of Figure
 
 
 # Download
 git clone https://github.com/Hematology-Lab-of-Angers-Hospital/FIM-Myelofibrosis-NGS
+
 # Launch generation of figure
 python3 Code/Figure_genomics.py
 
