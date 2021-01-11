@@ -24,7 +24,7 @@ Groupe_gene.csv
 ### Gene of the NGS panel
 List_gene_panel.csv
 ## :open_file_folder: Code/
- Code to generate figure for description of the molecular landscape
+ Code to generate figures for description of the molecular landscape
 
 
 
