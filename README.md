@@ -28,11 +28,11 @@ List_gene_panel.csv
 
 
 
-# Download
+## Download
 ```shell
 git clone https://github.com/Hematology-Lab-of-Angers-Hospital/FIM-Myelofibrosis-NGS
 ```
-# Launch generation of figure
+## Launch generation of figure
 ```python
 python3 Code/Figure_genomics.py
 ```
@@ -41,19 +41,30 @@ python 3.6.9 (2020-10-8)
 R 3.4.4 (2018-03-15)
 ### R
 -dplyr
+
 install.packages("dplyr")
+
 library(dplyr)
+
 -circlize
+
 install.packages("circlize") 
+
 library(circlize)
+
 -RColorBrewer
+
 install.packages("RColorBrewer")
+
 library("RColorBrewer")
 
-# Versionning
+## Versionning
 numpy==1.18.2
+
 pandas==0.24.2
+
 matplot==lib3.2.1
+
 seaborn==0.9.0
 
 ### To install python library
