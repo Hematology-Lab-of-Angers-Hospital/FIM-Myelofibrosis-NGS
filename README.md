@@ -7,18 +7,18 @@ Luque Paz D. et al.
 
 
 ## :open_file_folder: Data/
-## Database of all mutations in the cohort
+### Database of all mutations in the cohort
 Data_Variants.csv 
 
 Classification of mutation:
  A=Pathogenic
  B=Likely pathogenic
  C=Variant of unknow significance
-## Classification of gene categories for circos
+### Classification of gene categories for circos
 Groupe_gene.csv
-## Gene of panel NGS
+### Gene of the NGS panel
 List_gene_panel.csv
-## Code for figure of Genomics
+### Code for figure of Genomics
  Code to generate figure for description of the molecular landscape
 
 
