@@ -14,11 +14,14 @@ Classification of mutation:
  A=Pathogenic
  B=Likely pathogenic
  C=Variant of unknow significance
+### Clinical data of the 479 patients of the cohort
+Data_Cohort.csv
+Follow-up is reported as days
 ### Classification of gene categories for circos
 Groupe_gene.csv
 ### Gene of the NGS panel
 List_gene_panel.csv
-### Code for figure of Genomics
+## :open_file_folder: Code/
  Code to generate figure for description of the molecular landscape
 
 
