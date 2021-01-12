@@ -107,9 +107,9 @@ main_function_circos <- function(name_matrix,list_category,seuil) {
 gene_category <- function(categorie) {
 
 	# Read file
-	file_group_gene = "../Data/Groupe_gene.csv"
+	file_group_gene = "../Data/Group_gene.csv"
 	file_cate_gene = read.csv(file_group_gene,header=TRUE, sep=",")
-	group = file_cate_gene %>% filter( GROUPE == categorie)%>%select(Gene)
+	group = file_cate_gene %>% filter( GROUP == categorie)%>%select(Gene)
 	# List of gene
 	list_group = as.vector(group[, "Gene", drop=TRUE])
 	
@@ -119,12 +119,12 @@ gene_category <- function(categorie) {
 # Order circos by gene category
 order_by_category <- function(liste_category,gene_seuil) {
 	# File of category gene
-	file_group_gene = "../Data/Groupe_gene.csv"
+	file_group_gene = "../Data/Group_gene.csv"
 	file_cate_gene = read.csv(file_group_gene,header=TRUE, sep=",")
 	order_circos = c()
 	# Course
 	for (category in liste_category){
-		group = file_cate_gene %>% filter( GROUPE == category)%>%select(Gene)
+		group = file_cate_gene %>% filter( GROUP == category)%>%select(Gene)
 		list_group = as.vector(group[, "Gene", drop=TRUE])
 		for (gene_cate in list_group){
 			# Write gene in order for representation

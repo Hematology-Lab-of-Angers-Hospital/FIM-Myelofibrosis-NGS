@@ -578,7 +578,6 @@ def Prepare_Data_ASXL1(data):
           
     # Keep only data use in graphics
     data_keep = data_AB[data_AB["FILTER"].isin(groupe_figure_ASXL1)]
-    data_keep[["PATIENT","DRIVER_USE_Figure","TYPE_DRIVER_USE_Figure","VAF_DRIVER_USE_Figure","ID","Gene_refGene","Classification_mutation","Mean_VAF","FILTER"]].to_csv("Figure/Data_preparation_figs7_final.csv",sep=",")
     return(data_keep)
 
 def figure_s7(data_group_ASXL1,size_label,seuil_rep,quality_dpi,size_figure,name_repertory):
@@ -768,7 +767,7 @@ if __name__ == '__main__':
     # Name of directory to save figure
     name_repertory_figure = "Figure/"
     # File Database
-    name_files = "Data/Data_Variant_result_479MF.csv"
+    name_files = "Data/Data_Variants.csv"
     # setting figure
     size_figure = (20,10)
     quality_dpi = 400
