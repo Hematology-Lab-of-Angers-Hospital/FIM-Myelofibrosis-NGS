@@ -26,7 +26,7 @@ Group_gene.csv
 List_gene_panel.csv
 ## :open_file_folder: Code/
  Code to generate figures for description of the molecular landscape
-## :open_file_folder Figure 
+## :open_file_folder: Figure 
  Output directory for figures
 
 ## Download
