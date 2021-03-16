@@ -2,7 +2,7 @@
 # Genomic analysis of primary and secondary myelofibrosis redefines the prognostic relevance of ASXL1 mutations: a French Intergroup of Myeloproliferative neoplasms (FIM) study
 #### Author of code : Laboratory of Hematology, Angers Universitary Hospital
 
-Luque Paz D. et al. Blood Advances. in press
+Luque Paz D. et al. Blood Advances (2021) 5 (5): 1442–1451.
 
 The folder contains the clinical and molecular data of the cohort.
 ## :question: Contacts
